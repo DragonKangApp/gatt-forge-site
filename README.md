@@ -1,6 +1,6 @@
 # GATT Forge 支持与隐私静态网站
 
-本目录是待补齐发布信息的网页，不是已经发布的网站。内容依据 `Docs/Release/Privacy-*.md`、`Support-FAQ-*.md`、`Privacy-Audit.md`、`metadata.json`，并核对当前权益、导出和数据工具源码。中英文隐私正文保留原草稿全部章节与数据边界。
+本目录是已发布到 GitHub Pages 的静态支持网站源码；开发者 / 运营者公开名称仍待补充。内容依据 `Docs/Release/Privacy-*.md`、`Support-FAQ-*.md`、`Privacy-Audit.md`、`metadata.json`，并核对当前权益、导出和数据工具源码。中英文隐私政策保留原草稿的应用数据处理边界，并已补充支持邮件和 GitHub Pages 托管说明。
 
 ## 文件与预览
 
@@ -22,12 +22,12 @@ python3 -m http.server 8765 --bind 127.0.0.1
 
 - 支持邮箱已设为 `dragon_kang_app@163.com`，四个页面均提供邮件链接；请用户确认邮箱可正常收信。
 - `TODO_DEVELOPER_NAME`：实际开发者 / 运营者公开名称。
-- `TODO_EFFECTIVE_DATE`：政策实际生效日期，不用文件制作日期冒充。
-- 站点根地址已确定：`https://dragonkangapp.github.io/gatt-forge-site/`；是否已上线需以实际部署结果为准。
-- `TODO_SUPPORT_MESSAGE_HANDLING`：实际收件人、邮件服务商、处理用途、保留期限、删除请求途径。不要未经确认承诺“立即删除”或“不接收任何数据”。
-- `TODO_HOSTING_PRIVACY`：选定托管服务后，确认其访问日志、IP 等服务端处理，并补充对应政策链接；页面自身无跟踪不代表托管方不记日志。
+- 生效日期：`2026-09-30`（用户指定）。
+- 站点根地址已确定：`https://dragonkangapp.github.io/gatt-forge-site/`；已通过 GitHub Pages 发布；后续修改应在推送后确认页面内容已更新。
+- 支持邮件说明已补齐：主动提供的信息、回复 / 排障用途、网易 163 邮箱处理、必要期限内保留及删除请求方式。
+- GitHub Pages 托管说明已补齐：无页面跟踪脚本，GitHub 为安全目的记录访客 IP；链接至 GitHub 官方说明与隐私声明。
 
-核对最终二进制与运营实际后，移除四页的“发布准备稿 / Publication draft”提示以及待填说明。审计所提应用内隐私入口仍是之后单独的发布任务；本轮未改应用代码，也未填写 App Privacy 表单。
+四页仅保留开发者 / 运营者名称待补提示；填写该名称后同步移除相应提示。审计所提应用内隐私入口仍是之后单独的发布任务；本轮未改应用代码，也未填写 App Privacy 表单。
 
 ## 手动发布到 GitHub Pages
 
